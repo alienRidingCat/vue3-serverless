@@ -2,7 +2,7 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "vite --host",
-    "build": "vue-tsc --noEmit && vite build",
+    "build": "vite build",
     "serve": "vite preview",
     "deploy": "tcb framework deploy",
     "deploy:client": "tcb framework deploy client",

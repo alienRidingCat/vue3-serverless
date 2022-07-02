@@ -4,6 +4,7 @@ import path from 'path'
 import viteCompression from 'vite-plugin-compression'
 
 export default defineConfig({
+  base: '/vue/',
   plugins: [
     vue(),
     // 代码压缩
