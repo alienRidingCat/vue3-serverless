@@ -3,7 +3,10 @@
   "scripts": {
     "dev": "vite --host",
     "build": "vue-tsc --noEmit && vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "deploy": "tcb framework deploy",
+    "deploy:client": "tcb framework deploy client",
+    "deploy:server": "tcb framework deploy server"
   },
   "dependencies": {
     "@element-plus/icons-vue": "^1.1.1",
